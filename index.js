@@ -19,3 +19,13 @@ for (let i = 0; i < 5; i++) {
 };
 
 // #2
+function longerThan(minimumLength) {
+return (e) => {
+    return e.length >
+    minimumLength;
+};
+};
+
+let minimumLength = 2;
+
+console.log(['this', 'is', 'a', 'test', 'for', 'the', 'assignment'].filter(longerThan(minimumLength)));
