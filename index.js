@@ -3,7 +3,7 @@
 function myChance (){
     let count = 0; 
     return function() {
-        count +=1
+        count += 1
         if (count <=5) {
             console.log('Congrats you earn the chance!');
         }else {
